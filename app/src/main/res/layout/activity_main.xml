@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/rain" />
+
+    <TextView
+        android:id="@+id/weatherSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200" />
+
+    <Button
+        android:id="@+id/bttn_FirebaseDatabase"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/bttn1"
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bttn_FirebaseDatabaseData"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/bttn2"
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bttn_LocalDatabase"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/bttn3"
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bttn_LocalDatabaseData"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/bttn4"
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bttn_ChangeWeather"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/bttn5"
+        android:textColor="#070707"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="bttn1">Firebase Database</string>
+    <string name="bttn2">Firebase Database Data</string>
+    <string name="bttn3">Local Database</string>
+    <string name="bttn4">Local Database Data</string>
+    <string name="bttn5">Change Weather Location</string>
+    <string name="temp">City | Temperature XX°C | Humidity X%</string>
+    <string name="newLoc">New Location:  </string>
+    <string name="change">Change</string>
+
+    <string name="user_id">User ID</string>
+    <string name="user_firstName">First Name</string>
+    <string name="user_lastName">Last Name</string>
+    <string name="user_phoneNumber">Phone Number</string>
+    <string name="user_emailAddress">Email Address</string>
+    <string name="bttn_insert">Insert</string>
+    <string name="bttn_update">Update</string>
+    <string name="bttn_find">Find</string>
+    <string name="bttn_delete">Delete</string>
+
+    <string name="localandfirebase">Find from Firebase Database user ID </string>
+    <string name="localandfirebase2">and add to local firebase. </string>
+    <string name="localandfirebasehint">USER ID</string>
+    <string name="bttn_fetch">Fetch and Combine</string>
+
+    <string name="UserIDUpdate">User ID to Update Values: </string>
+    <string name="updateValues">Update Value of: </string>
+    <string name="newUpdatedValue">The New Value is: </string>
+
+
+    <string-array name="locations">
+        <item> Abha </item>
+        <item> Athens </item>
+        <item> Austria </item>
+        <item> California </item>
+        <item> Jeddah </item>
+        <item> Khobar </item>
+        <item> London </item>
+        <item> Paris </item>
+        <item> Riyadh </item>
+        <item> Seattle </item>
+    </string-array>
+
+
+</resources>
